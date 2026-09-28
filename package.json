@@ -1,0 +1,23 @@
+{
+  "name": "campus-lost-found",
+  "version": "1.0.0",
+  "description": "Campus Lost & Found Board – dynamic web app with CI/CD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "keywords": ["express", "lost-found", "ci-cd"],
+  "author": "Student",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.10.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
